@@ -5,7 +5,7 @@ body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 12pt;
-    font-weight: 200;
+    font-weight: 300;
     line-height: 1.5;
     margin: 0;
 }
@@ -47,6 +47,13 @@ header {
     width: 660px;
     height: 660px;
     margin-left: 140px;
+}
+
+.navbar {
+    height: 40px;
+    background-color: #232323;
+    display: flex;
+    gap: 40px;
 }
 
 .background {
@@ -148,8 +155,8 @@ img {
     height: 500px;
 }
 
-.excercise {
-    padding-right: 80px;
+.projectimg {
+    padding: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,150 +164,64 @@ img {
 
 #excercise {
     height: 660px;
-    padding-left: 80px;
     padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.map {
-    padding-left: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #map {
     background-color: #232323;
     height: 660px;
     padding-left: 80px;
-    padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.data {
-    padding-right: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #data {
     height: 660px;
-    padding-left: 80px;
     padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.smoke {
-    padding-left: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 #smoke {
     background-color: #232323;
     height: 660px;
     padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#news {
+    height: 660px;
     padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.news {
+#contact {
+    height: 320px;
+    padding-left: 80px;
     padding-right: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
-#news {
-    height: 660px;
+.formlink {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #232323;
+    height: 160px;
     padding-left: 80px;
     padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-@media (max-width: 768px) {
-    body {
-        font-size: 10pt;
-    }
-
-    h1 {
-        font-size: 28pt;
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 16pt;
-        text-align: center;
-    }
-
-    h3 {
-        font-size: 20pt;
-        text-align: center;
-    }
-
-    header,
-    #profile,
-    .background,
-    .projects,
-    .content,
-    #excercise,
-    #map,
-    #data,
-    #smoke,
-    #news {
-        flex-direction: column !important;
-        height: auto;
-        padding-left: 20px;
-        padding-right: 20px;
-        text-align: center;
-        align-items: center !important;
-        justify-content: center !important;
-    }
-
-    #profile,
-    img,
-    .content nav img {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .content nav {
-        flex-direction: column;
-    }
-
-    .content nav img {
-        height: auto;
-        max-width: 100%;
-        padding-bottom: 20px;
-    }
-
-    table,
-    thead,
-    tbody,
-    th,
-    td {
-        font-size: 9pt;
-        padding: 8px;
-    }
-
-    .data,
-    .map,
-    .excercise,
-    .smoke,
-    .news {
-        padding: 0;
-    }
 }
